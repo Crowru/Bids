@@ -1,9 +1,6 @@
-//
 //  BidsApp.swift
 //  Bids
-//
-//  Created by Руслан  on 07.02.2024.
-//
+//  Created by Руслан  on 09.02.2024.
 
 import SwiftUI
 
@@ -11,7 +8,7 @@ import SwiftUI
 struct BidsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            BetView()
         }
     }
 }

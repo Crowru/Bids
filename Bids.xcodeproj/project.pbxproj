@@ -7,18 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1B288B2B752A84008EF336 /* BookmakerResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1B288A2B752A84008EF336 /* BookmakerResultsView.swift */; };
 		2AEAF3FC2B73ED1A004CAA40 /* BidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAF3FB2B73ED1A004CAA40 /* BidsApp.swift */; };
-		2AEAF3FE2B73ED1A004CAA40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAF3FD2B73ED1A004CAA40 /* ContentView.swift */; };
 		2AEAF4002B73ED1B004CAA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAF3FF2B73ED1B004CAA40 /* Assets.xcassets */; };
 		2AEAF4032B73ED1B004CAA40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AEAF4022B73ED1B004CAA40 /* Preview Assets.xcassets */; };
+		2AEAF40D2B73EE33004CAA40 /* BetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAF40C2B73EE33004CAA40 /* BetView.swift */; };
+		2AEAF40F2B74037D004CAA40 /* AverageCoefficientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEAF40E2B74037C004CAA40 /* AverageCoefficientsView.swift */; };
+		2AEEEEB62B76736500128AA1 /* AverageCoefficientsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEEEEB52B76736500128AA1 /* AverageCoefficientsViewModel.swift */; };
+		2AEEEEB82B76782300128AA1 /* BookmakerResultsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AEEEEB72B76782300128AA1 /* BookmakerResultsViewModel.swift */; };
+		665EABE32B76935B00632769 /* BookmakerResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665EABE22B76935B00632769 /* BookmakerResults.swift */; };
+		665EABE52B7693A900632769 /* Coefficients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665EABE42B7693A900632769 /* Coefficients.swift */; };
+		665EABE72B7697BF00632769 /* BookmakerResultsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665EABE62B7697BF00632769 /* BookmakerResultsWireframe.swift */; };
+		665EABE92B7698B600632769 /* AverageCoefficientsWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 665EABE82B7698B600632769 /* AverageCoefficientsWireframe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2A1B288A2B752A84008EF336 /* BookmakerResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmakerResultsView.swift; sourceTree = "<group>"; };
 		2AEAF3F82B73ED1A004CAA40 /* Bids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bids.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AEAF3FB2B73ED1A004CAA40 /* BidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BidsApp.swift; sourceTree = "<group>"; };
-		2AEAF3FD2B73ED1A004CAA40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2AEAF3FF2B73ED1B004CAA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2AEAF4022B73ED1B004CAA40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2AEAF40C2B73EE33004CAA40 /* BetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetView.swift; sourceTree = "<group>"; };
+		2AEAF40E2B74037C004CAA40 /* AverageCoefficientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageCoefficientsView.swift; sourceTree = "<group>"; };
+		2AEEEEB52B76736500128AA1 /* AverageCoefficientsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageCoefficientsViewModel.swift; sourceTree = "<group>"; };
+		2AEEEEB72B76782300128AA1 /* BookmakerResultsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmakerResultsViewModel.swift; sourceTree = "<group>"; };
+		665EABE22B76935B00632769 /* BookmakerResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmakerResults.swift; sourceTree = "<group>"; };
+		665EABE42B7693A900632769 /* Coefficients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coefficients.swift; sourceTree = "<group>"; };
+		665EABE62B7697BF00632769 /* BookmakerResultsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmakerResultsWireframe.swift; sourceTree = "<group>"; };
+		665EABE82B7698B600632769 /* AverageCoefficientsWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AverageCoefficientsWireframe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +48,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1B288C2B752BB1008EF336 /* AverageCoefficientsView */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAF40E2B74037C004CAA40 /* AverageCoefficientsView.swift */,
+				2AEEEEB52B76736500128AA1 /* AverageCoefficientsViewModel.swift */,
+				665EABE82B7698B600632769 /* AverageCoefficientsWireframe.swift */,
+			);
+			path = AverageCoefficientsView;
+			sourceTree = "<group>";
+		};
 		2AEAF3EF2B73ED1A004CAA40 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +78,9 @@
 			isa = PBXGroup;
 			children = (
 				2AEAF3FB2B73ED1A004CAA40 /* BidsApp.swift */,
-				2AEAF3FD2B73ED1A004CAA40 /* ContentView.swift */,
-				2AEAF3FF2B73ED1B004CAA40 /* Assets.xcassets */,
+				2AEAF40A2B73ED56004CAA40 /* Screens */,
+				665EABE12B76934B00632769 /* Models */,
+				2AEAF4092B73ED49004CAA40 /* Resources */,
 				2AEAF4012B73ED1B004CAA40 /* Preview Content */,
 			);
 			path = Bids;
@@ -65,6 +92,51 @@
 				2AEAF4022B73ED1B004CAA40 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2AEAF4092B73ED49004CAA40 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAF3FF2B73ED1B004CAA40 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2AEAF40A2B73ED56004CAA40 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAF40B2B73EE27004CAA40 /* BetView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		2AEAF40B2B73EE27004CAA40 /* BetView */ = {
+			isa = PBXGroup;
+			children = (
+				2AEAF40C2B73EE33004CAA40 /* BetView.swift */,
+				2A1B288C2B752BB1008EF336 /* AverageCoefficientsView */,
+				665EABE02B7692A700632769 /* BookmakerResultsView */,
+			);
+			path = BetView;
+			sourceTree = "<group>";
+		};
+		665EABE02B7692A700632769 /* BookmakerResultsView */ = {
+			isa = PBXGroup;
+			children = (
+				2A1B288A2B752A84008EF336 /* BookmakerResultsView.swift */,
+				2AEEEEB72B76782300128AA1 /* BookmakerResultsViewModel.swift */,
+				665EABE62B7697BF00632769 /* BookmakerResultsWireframe.swift */,
+			);
+			path = BookmakerResultsView;
+			sourceTree = "<group>";
+		};
+		665EABE12B76934B00632769 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				665EABE22B76935B00632769 /* BookmakerResults.swift */,
+				665EABE42B7693A900632769 /* Coefficients.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +209,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AEAF3FE2B73ED1A004CAA40 /* ContentView.swift in Sources */,
+				665EABE32B76935B00632769 /* BookmakerResults.swift in Sources */,
+				2AEAF40D2B73EE33004CAA40 /* BetView.swift in Sources */,
+				665EABE52B7693A900632769 /* Coefficients.swift in Sources */,
+				665EABE72B7697BF00632769 /* BookmakerResultsWireframe.swift in Sources */,
+				2AEEEEB82B76782300128AA1 /* BookmakerResultsViewModel.swift in Sources */,
+				2AEEEEB62B76736500128AA1 /* AverageCoefficientsViewModel.swift in Sources */,
+				2A1B288B2B752A84008EF336 /* BookmakerResultsView.swift in Sources */,
+				2AEAF40F2B74037D004CAA40 /* AverageCoefficientsView.swift in Sources */,
+				665EABE92B7698B600632769 /* AverageCoefficientsWireframe.swift in Sources */,
 				2AEAF3FC2B73ED1A004CAA40 /* BidsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -197,7 +277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -280,6 +360,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +390,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
